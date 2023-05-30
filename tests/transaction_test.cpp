@@ -32,7 +32,7 @@ TEST(Transaction, SimpleTest) {
     EXPECT_THROW(tr.Make(acc_1, acc_2, -5), std::invalid_argument);
     EXPECT_THROW(tr.Make(acc_1, acc_1, 100), std::logic_error);
     EXPECT_FALSE(tr.Make(acc_1, acc_2, 400));
-    EXPECT_FALSE(tr.Make(ac2, acc_1, 300));
-    EXPECT_FALSE(tr.Make(ac2, acc_1, 290));
-    EXPECT_TRUE(tr.Make(ac2, acc_1, 150));
+    EXPECT_FALSE(tr.Make(acc_2, acc_1, 300));
+    EXPECT_FALSE(tr.Make(acc_2, acc_1, 290));
+    EXPECT_TRUE(tr.Make(acc_2, acc_1, 150));
 }
