@@ -1,5 +1,7 @@
 ## Laboratory work V
 
+[![Coverage Status](https://coveralls.io/repos/github/Dmitriiagishev/lab05/badge.svg?branch=main)](https://coveralls.io/github/Dmitriiagishev/lab05?branch=main)
+
 Данная лабораторная работа посвещена изучению фреймворков для тестирования на примере **GTest**
 
 ```sh
@@ -148,7 +150,7 @@ $ gist REPORT.md
     * Покрытие кода должно составлять 100%.
 3. Настройте сборочную процедуру на **TravisCI**.
 4. Настройте [Coveralls.io](https://coveralls.io/).
-[![Coverage Status](https://coveralls.io/repos/github/Dmitriiagishev/lab05/badge.svg?branch=main)](https://coveralls.io/github/Dmitriiagishev/lab05?branch=main)
+
 
 
 ## Links
