@@ -19,7 +19,7 @@ target_link_libraries(banking gcov)
 
 if(BUILD_TESTS)
   enable_testing()
-  add_subdirectory(third-party/gtest)
+  add_subdirectory(googletest)
   file(GLOB BANKING_TEST_SOURCES tests/*.cpp)
   add_executable(check ${BANKING_TEST_SOURCES})
   target_link_libraries(check banking gtest_main)
